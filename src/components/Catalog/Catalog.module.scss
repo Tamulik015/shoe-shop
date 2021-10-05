@@ -1,0 +1,22 @@
+@import '../variables.scss';
+
+.wrapper {
+	width:$widthBlock;
+	height: auto;
+	margin:0px auto;
+	display:flex;
+	flex-wrap: wrap;
+	
+	.blockProduct {
+		width:210px;
+		height:260px;
+		border:1px solid pink;
+		border-radius:40px;
+		margin:10px calc((100% - 840px) / 3) 10px 0;
+		
+		
+		&:nth-child(4n) {
+			margin-right:0;
+		}
+	}
+}

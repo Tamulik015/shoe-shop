@@ -1,0 +1,16 @@
+export {default as Logo} from '../assets/logo.png';
+export {default as Cart} from '../assets/cart.svg';
+export {default as Liked} from '../assets/liked.svg';
+export {default as unLiked} from '../assets/unliked.svg';
+export {default as Heart} from '../assets/heart.svg';
+export {default as User} from '../assets/user.svg';
+export {default as Search} from '../assets/search.svg';
+export {default as Plus} from '../assets/btn-plus.svg';
+export {default as Checked} from '../assets/btn-checked.svg';
+export {default as Image} from '../assets/image.png';
+export {default as Original} from '../assets/original.png';
+export {default as Smile} from '../assets/smile.png';
+export {default as EmptyCart} from '../assets/empty-cart.jpg';
+export {default as CachedIcon} from '@material-ui/icons/Cached';
+export {default as Close} from '@material-ui/icons/Close';
+export {default as HighlightOff} from '@material-ui/icons/HighlightOff';

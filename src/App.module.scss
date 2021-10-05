@@ -1,0 +1,23 @@
+
+
+.wrapper {
+	width:100%;
+	min-height:100vh;
+	background:#E7F6FF;
+	position:absolute;
+
+	
+	&__container {
+		width:1080px;
+		min-height:1526px;
+		background:white;
+		border-top-left-radius:20px;
+		border-top-right-radius:20px;
+		margin:85px auto 0;
+		
+		.pages {
+			width:100%;
+			min-height: 900px;
+		}
+	}
+}

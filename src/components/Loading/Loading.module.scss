@@ -1,0 +1,22 @@
+.wrapper {
+	width:100px;
+	height:100px;
+	margin:20px auto;
+	
+	.loading {
+		font-size:10em;
+		color:#E7F6FF;
+		
+		animation: anim 0.5s linear infinite;
+		transform: rotate(0deg);
+		
+		@keyframes anim {
+			from {
+				transform: rotate(0deg);
+			}
+			to {
+				transform: rotate(180deg);
+			}
+		}
+	}
+}

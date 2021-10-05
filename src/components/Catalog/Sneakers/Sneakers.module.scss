@@ -1,0 +1,89 @@
+.wrapper {
+		width:210px;
+		height:260px;
+		border:1px solid #F3F3F3;
+		border-radius:40px;
+		margin:25px calc((100% - 840px) / 3) 10px 0;
+		transition:0.5s ease;
+		
+		
+		&:nth-child(4n) { // Прижать каждый 4 блок справа
+			margin-right:0;
+		}
+		
+		
+		&__imageBlock {
+			width:calc(100% - 50px);
+			height:120px;
+			margin:10px auto;
+			display:flex;
+			align-items:center;
+			position:relative;
+			
+			.likedBlock {
+				width:40px;
+				height:40px;
+				cursor:pointer;
+				position:absolute;
+				top:0;
+				.liked {
+					width:100%;
+					height:100%;
+				}
+			}
+			
+			.sneakers {
+				width:100%;
+				height:100%;
+			}
+		}
+		
+		
+		
+		&__descriptionProduct {
+			width:calc(100% - 50px);
+			margin:0 auto;
+			
+			p {
+				font-size:15px;
+			}	
+		}
+		
+		
+		
+		&__priceBlock {
+			display:flex;
+			width:calc(100% - 50px);
+			height:50px;
+			margin:10px auto;
+			
+			.price {
+				width:calc(100% - 30%);
+				height:100%;
+				
+				.priceStyle {
+					margin-bottom:10px;
+					color:#BDBDBD;
+				}
+			}
+			
+			.addBlock {
+				width:calc(100% - 70%);
+				height:100%;
+				cursor:pointer;
+				border-radius:10px;
+				display:flex;
+				
+				.plusIcon {
+					display:block;
+					margin:auto;
+					width:100%;
+				}
+			}
+		}
+}
+
+
+	
+	
+	
